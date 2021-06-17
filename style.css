@@ -1,0 +1,126 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+}
+
+body {
+  background-color: rgb(206, 230, 250);
+}
+
+.container {
+  width: 90%;
+  background-color: white;
+  margin: 20px auto;
+  border-radius: 5px;
+}
+
+.profile {
+  height: 335px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.picture {
+  display: flex;
+  justify-content: center;
+}
+
+.picture img {
+  width: 120px;
+  height: 120px;
+  border-radius: 100px;
+  margin-bottom: 20px;
+}
+
+.profile h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.profile p {
+  text-align: center;
+  color: #777;
+}
+
+.section-ctr-1 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(138, 183, 250);
+}
+
+.section-ctr-2 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(51, 132, 253);
+}
+
+.section-ctr-3 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(3, 104, 255);
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.section {
+  width: 85%;
+  margin: 35px 0;
+}
+
+.about {
+}
+
+.section h2 {
+  color: white;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgb(224, 223, 223);
+}
+
+.section p {
+  padding-top: 20px;
+  color: white;
+  line-height: 1.5rem;
+}
+
+a {
+  color: white;
+}
+
+.work p {
+}
+
+.work p::before {
+  content: "➡️";
+  margin-right: 10px;
+}
+
+.btn-ctr {
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+button {
+  background-color: rgb(3, 104, 255);
+  border: 1px solid rgb(224, 223, 223);
+  color: white;
+  padding: 8px 20px;
+  border-radius: 5px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
