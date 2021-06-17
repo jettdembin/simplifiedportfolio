@@ -11,6 +11,7 @@ body {
 
 body {
   background-color: rgb(206, 230, 250);
+  font-family: "Inter", sans-serif;
 }
 
 .container {
@@ -21,11 +22,10 @@ body {
 }
 
 .profile {
-  height: 335px;
+  height: 325px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
 }
 
 .picture {
@@ -42,7 +42,6 @@ body {
 
 .profile h1 {
   text-align: center;
-  margin-bottom: 20px;
 }
 
 .profile p {
@@ -84,16 +83,20 @@ body {
 .about {
 }
 
-.section h2 {
+h2 {
   color: white;
   padding-bottom: 20px;
   border-bottom: 1px solid rgb(224, 223, 223);
+  font-size: 16px;
+  font-weight: 600;
 }
 
-.section p {
+p {
   padding-top: 20px;
   color: white;
   line-height: 1.5rem;
+  font-size: 14px;
+  font-weight: 100;
 }
 
 a {
@@ -101,6 +104,8 @@ a {
 }
 
 .work p {
+  line-height: 1rem;
+  font-size: 14px;
 }
 
 .work p::before {
@@ -124,3 +129,14 @@ button {
   margin-right: 10px;
   margin-top: 10px;
 }
+
+.btn-ctr a {
+  text-decoration: none;
+}
+
+.btn-ctr button:hover {
+  cursor: pointer;
+  border-color: rgb(0, 255, 255);
+  color: rgb(0, 255, 255);
+}
+
